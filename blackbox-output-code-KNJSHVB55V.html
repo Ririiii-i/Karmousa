@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karmousa - Sapori di Tunisia fatti in casa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Karmousa</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dolci">Dolci</a></li>
+                <li><a href="#salato">Salato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Karmousa – Sapori di Tunisia fatti in casa</h1>
+            <p class="subtitle">
+                Dolci e bontà salate, dalla nostra cucina alla tua<br>
+                حلويات ومأكولات خفيفة، من مطبخنا إلى مطبخك
+            </p>
+            <div class="buttons">
+                <a href="#dolci" class="btn btn-dolci">Dolci 🍬</a>
+                <a href="#salato" class="btn btn-salato">Salato 🥙</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="dolci" class="products">
+        <h2>Dolci della tradizione tunisina | حلويات تقليدية تونسية</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Makroud" alt="Makroud">
+                <h3>Makroud | المقروض</h3>
+                <p>Dolce a base di semola e datteri, fritto e ricoperto di miele. | حلوى من السميد والتمر، مقلي ومغطى بالعسل.</p>
+                <p class="price">€5.00</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Makroud')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Baklava" alt="Baklava">
+                <h3>Baklava | البقلاوة</h3>
+                <p>Strati di pasta fillo con noci e sciroppo dolce. | طبقات من العجينة مع الجوز وسكر العسل.</p>
+                <p class="price">€6.00</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Baklava')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Ghraiba" alt="Ghraiba">
+                <h3>Ghraiba | الغريبة</h3>
+                <p>Biscotti al burro e mandorle, leggeri e friabili. | بسكويت بالزبدة واللوز، خفيف وهش.</p>
+                <p class="price">€4.50</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Ghraiba')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Zlabia" alt="Zlabia">
+                <h3>Zlabia | الزلابية</h3>
+                <p>Churros tunisini fritti e inzuppati in miele. | شوروس تونسي مقلي ومغمس في العسل.</p>
+                <p class="price">€5.50</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Zlabia')">Aggiungi al carrello</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="salato" class="products">
+        <h2>Piccole bontà salate | مأكولات خفيفة ولذيذة</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Fricasse" alt="Fricassé">
+                <h3>Fricassé | فريكاسي</h3>
+                <p>Pane tunisino fritto, croccante e perfetto per accompagnare. | خبز تونسي مقلي، مقرمش ومثالي للإضافة.</p>
+                <p class="price">€3.00</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Fricassé')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Brik" alt="Brik">
+                <h3>Brik | بريك</h3>
+                <p>Pasta fillo ripiena di tonno o verdure, fritta. | عجينة مليئة بالتونة أو الخضار، مقلية.</p>
+                <p class="price">€4.00</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Brik')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Chapati" alt="Chapati">
+                <h3>Chapati | شباتي</h3>
+                <p>Pane sottile tunisino, morbido e versatile. | خبز تونسي رقيق، ناعم ومتعدد الاستخدامات.</p>
+                <p class="price">€2.50</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Chapati')">Aggiungi al carrello</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Focacce" alt="Piccole focacce">
+                <h3>Piccole focacce / street food tunisino | فوكاتش صغيرة / طعام شارع تونسي</h3>
+                <p>Focacce salate con erbe e spezie, ispirate alla strada. | فوكاتش مالحة بالأعشاب والتوابل، مستوحاة من الشارع.</p>
+                <p class="price">€3.50</p>
+                <button class="btn-cart" onclick="orderWhatsApp('Piccole focacce')">Aggiungi al carrello</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
