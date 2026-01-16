@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5E6D3;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #7B5BAE;
+  color: white;
+  padding: 1.5rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 3rem 1rem;
+  background-color: #D4A017;
+  color: white;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: #7B5BAE;
+  color: white;
+  padding: 1rem;
+}
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4rem 1rem;
+  background-image: url('images/hero-dolci.jpg'); /* sostituisci con la tua foto */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons a.btn {
+  background-color: #7B5BAE; /* viola brand */
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.hero-buttons a.btn:hover {
+  background-color: #5a3a8e;
+}
